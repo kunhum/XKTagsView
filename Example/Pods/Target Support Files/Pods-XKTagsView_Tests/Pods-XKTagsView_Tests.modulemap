@@ -1,0 +1,6 @@
+framework module Pods_XKTagsView_Tests {
+  umbrella header "Pods-XKTagsView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

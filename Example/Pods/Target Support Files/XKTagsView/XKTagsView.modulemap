@@ -1,0 +1,6 @@
+framework module XKTagsView {
+  umbrella header "XKTagsView-umbrella.h"
+
+  export *
+  module * { export * }
+}
