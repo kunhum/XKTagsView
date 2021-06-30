@@ -43,11 +43,11 @@ public class XKTagsView: UIView {
     ///字体颜色
     public lazy var textColor = UIColor.black
     ///边界颜色
-    public lazy var borderColor = UIColor.clear
+    public lazy var xk_borderColor = UIColor.clear
     ///边界宽
-    public lazy var borderWidth: CGFloat = 0.5
+    public lazy var xk_borderWidth: CGFloat = 0.5
     ///边界圆角
-    public lazy var cornerRadius: CGFloat = 4.0
+    public lazy var xk_cornerRadius: CGFloat = 4.0
     ///设置边距，上左下右统一用此边距
     public lazy var edgeMargin: CGFloat = 8.0
     ///选项增长
@@ -58,8 +58,8 @@ public class XKTagsView: UIView {
     public lazy var maximumSelected = 1
     public lazy var selectedBackgroundColor = itemColor
     public lazy var selectedTextColor = textColor
-    public lazy var selectedBorderColor = borderColor
-    public lazy var selectedBorderWidth = borderWidth
+    public lazy var selectedBorderColor = xk_borderColor
+    public lazy var selectedBorderWidth = xk_borderWidth
     ///初始选择的下标，在只选择一个的时候有用
     public var defaultSelectIndex: Int? = nil
     
@@ -177,9 +177,9 @@ extension XKTagsView {
             tagButton.setTitle(tag, for: .normal)
             tagButton.setTitleColor(textColor, for: .normal)
             tagButton.titleLabel?.font      = font
-            tagButton.layer.borderColor     = borderColor.cgColor
-            tagButton.layer.borderWidth     = borderWidth
-            tagButton.layer.cornerRadius    = cornerRadius
+            tagButton.layer.borderColor     = xk_borderColor.cgColor
+            tagButton.layer.borderWidth     = xk_borderWidth
+            tagButton.layer.cornerRadius    = xk_cornerRadius
             tagButton.layer.backgroundColor = itemColor.cgColor
             
             if shouldSelectItem {
@@ -249,8 +249,8 @@ extension XKTagsView {
             button.layer.borderColor     = selectedBorderColor.cgColor
             
             lastButton?.setTitleColor(textColor, for: .normal)
-            lastButton?.layer.borderWidth     = borderWidth
-            lastButton?.layer.borderColor     = borderColor.cgColor
+            lastButton?.layer.borderWidth     = xk_borderWidth
+            lastButton?.layer.borderColor     = xk_borderColor.cgColor
             lastButton?.layer.backgroundColor = itemColor.cgColor
             
             lastButton = button

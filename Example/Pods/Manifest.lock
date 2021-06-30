@@ -1,5 +1,5 @@
 PODS:
-  - XKTagsView (0.0.1)
+  - XKTagsView (0.0.3)
 
 DEPENDENCIES:
   - XKTagsView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XKTagsView: d3f651cc454b4c69701cd38c78d533a1a46487cc
+  XKTagsView: 6c3c033c12fd98bffd1c6b458cc6944339bfe90f
 
 PODFILE CHECKSUM: a7938ef4e926b1cb792779f80eb8cda1a193bc63
 
