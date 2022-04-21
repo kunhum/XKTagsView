@@ -1,6 +1,5 @@
-use_frameworks!
-
-platform :ios, '9.0'
+use_modular_headers!
+platform :ios, '10.0'
 
 target 'XKTagsView_Example' do
   pod 'XKTagsView', :path => '../'

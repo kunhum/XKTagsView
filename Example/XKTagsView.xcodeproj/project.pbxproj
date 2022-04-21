@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F09FECD75BD39CF74298A06 /* libPods-XKTagsView_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 252F0812613FA6E4D09ABDCE /* libPods-XKTagsView_Tests.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		771C44B22CBA9FC4878A4259 /* Pods_XKTagsView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7B9B67F60DB5FC5EA21E93 /* Pods_XKTagsView_Example.framework */; };
-		E4AC9B3F0B4D101605903A7B /* Pods_XKTagsView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D068E8C86153A2058D5ECC81 /* Pods_XKTagsView_Tests.framework */; };
+		B07FEEBC8267D7A36595B76C /* libPods-XKTagsView_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EE923FE8DA66358BF0733C /* libPods-XKTagsView_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E7B9B67F60DB5FC5EA21E93 /* Pods_XKTagsView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKTagsView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3283E6A94CECC2FB1D39CA31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		32B43CB9C34DB3419248EEC6 /* XKTagsView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XKTagsView.podspec; path = ../XKTagsView.podspec; sourceTree = "<group>"; };
+		252F0812613FA6E4D09ABDCE /* libPods-XKTagsView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKTagsView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3283E6A94CECC2FB1D39CA31 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32B43CB9C34DB3419248EEC6 /* XKTagsView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XKTagsView.podspec; path = ../XKTagsView.podspec; sourceTree = "<group>"; };
 		3D1FBF564FFC673BFE00E45C /* Pods-XKTagsView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTagsView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XKTagsView_Tests/Pods-XKTagsView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XKTagsView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKTagsView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		9439C05C071A0F8F365939D2 /* Pods-XKTagsView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTagsView_Tests.release.xcconfig"; path = "Target Support Files/Pods-XKTagsView_Tests/Pods-XKTagsView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB11AC98947C6DE74BEAC9E6 /* Pods-XKTagsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTagsView_Example.debug.xcconfig"; path = "Target Support Files/Pods-XKTagsView_Example/Pods-XKTagsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0013D6CF866C5D452C4A3AB /* Pods-XKTagsView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKTagsView_Example.release.xcconfig"; path = "Target Support Files/Pods-XKTagsView_Example/Pods-XKTagsView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BC95304397E3B4837873C217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D068E8C86153A2058D5ECC81 /* Pods_XKTagsView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XKTagsView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC95304397E3B4837873C217 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2EE923FE8DA66358BF0733C /* libPods-XKTagsView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKTagsView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				771C44B22CBA9FC4878A4259 /* Pods_XKTagsView_Example.framework in Frameworks */,
+				B07FEEBC8267D7A36595B76C /* libPods-XKTagsView_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AC9B3F0B4D101605903A7B /* Pods_XKTagsView_Tests.framework in Frameworks */,
+				4F09FECD75BD39CF74298A06 /* libPods-XKTagsView_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,15 +147,14 @@
 				3D1FBF564FFC673BFE00E45C /* Pods-XKTagsView_Tests.debug.xcconfig */,
 				9439C05C071A0F8F365939D2 /* Pods-XKTagsView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		E0180CEAF0EFF0CCDDD4F05E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E7B9B67F60DB5FC5EA21E93 /* Pods_XKTagsView_Example.framework */,
-				D068E8C86153A2058D5ECC81 /* Pods_XKTagsView_Tests.framework */,
+				C2EE923FE8DA66358BF0733C /* libPods-XKTagsView_Example.a */,
+				252F0812613FA6E4D09ABDCE /* libPods-XKTagsView_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BC4BC62F25F7486331F0769E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,24 +303,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BC4BC62F25F7486331F0769E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XKTagsView_Example/Pods-XKTagsView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XKTagsView/XKTagsView.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XKTagsView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XKTagsView_Example/Pods-XKTagsView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -419,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,12 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKTagsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -494,12 +476,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XKTagsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

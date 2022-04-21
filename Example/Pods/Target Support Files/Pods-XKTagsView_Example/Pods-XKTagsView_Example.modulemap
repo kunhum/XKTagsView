@@ -1,4 +1,4 @@
-framework module Pods_XKTagsView_Example {
+module Pods_XKTagsView_Example {
   umbrella header "Pods-XKTagsView_Example-umbrella.h"
 
   export *

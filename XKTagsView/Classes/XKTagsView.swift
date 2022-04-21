@@ -131,7 +131,7 @@ extension XKTagsView {
             let longGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPress(_:)))
             tagButton.addGestureRecognizer(longGesture)
             
-            let textWidth = (tag as NSString).boundingRect(with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: itemHeight), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font : font], context: nil).width
+            let textWidth = (tag as NSString).boundingRect(with: CGSize(width: CGFloat.greatestFiniteMagnitude, height: itemHeight), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font : font], context: nil).width
             
             var buttonWidth = textWidth + 2.0*edgeMargin
             
