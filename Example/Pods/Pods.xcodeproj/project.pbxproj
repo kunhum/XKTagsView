@@ -35,12 +35,12 @@
 /* Begin PBXFileReference section */
 		0004508DBF03D8DBBDCE800F8AD30C0B /* Pods-XKTagsView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKTagsView_Tests-dummy.m"; sourceTree = "<group>"; };
 		06224304A8984E33B982588123324184 /* Pods-XKTagsView_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XKTagsView_Example"; path = "libPods-XKTagsView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C0FC5AC366CF58B59A77F4958894962 /* XKTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1C0FC5AC366CF58B59A77F4958894962 /* XKTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XKTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		1C19DB60985C304AF0EB2EFBF5A6041A /* XKTagsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKTagsView.release.xcconfig; sourceTree = "<group>"; };
 		37A0C74D554E86417ACD100677B24E88 /* XKTagsView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKTagsView-umbrella.h"; sourceTree = "<group>"; };
 		38C9E402E3EE2164F876F6B80A01E60E /* Pods-XKTagsView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKTagsView_Example-umbrella.h"; sourceTree = "<group>"; };
-		59A495447B5F6232C10CA939C076DDBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5EA0D5CDF8578D5F0A90E26F73DC6055 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		59A495447B5F6232C10CA939C076DDBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5EA0D5CDF8578D5F0A90E26F73DC6055 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5ED4D4CABD00981A42524204F0CC3AF4 /* Pods-XKTagsView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKTagsView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		604191A63DF93F9F4507DB3077B12B6F /* XKTagsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKTagsView-dummy.m"; sourceTree = "<group>"; };
 		6D5338EDC2A399BF19AE9867CA780F3B /* Pods-XKTagsView_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XKTagsView_Tests"; path = "libPods-XKTagsView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +48,7 @@
 		7E5716EC02076382A4B89F636B38413D /* Pods-XKTagsView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKTagsView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		97CEF000A7C25A8C1C9492E362AB6AFB /* XKTagsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKTagsView.swift; path = XKTagsView/Classes/XKTagsView.swift; sourceTree = "<group>"; };
 		98D76C24B0221B80B78185834F1D6FE6 /* XKTagsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKTagsView.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3DF43F12FDBA3DB52BD6F155090C43A /* XKTagsView */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = XKTagsView; path = libXKTagsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB1ED652522DDC221F66A71C4A1AAD4 /* XKTagsView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKTagsView.modulemap; sourceTree = "<group>"; };
 		C65FBCA8DDE0E03A31975E8C9F2090BD /* Pods-XKTagsView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKTagsView_Example.modulemap"; sourceTree = "<group>"; };
@@ -480,8 +480,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

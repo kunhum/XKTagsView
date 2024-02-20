@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import XKTagsView
 
 class ViewController: UIViewController {
 
+    let tagsView = XKTagsView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        view.addSubview(tagsView)
+        tagsView.frame = CGRectMake(10, 100, view.bounds.width-32, 100)
+        tagsView.flagSize = CGSize(width: 16, height: 16)
+        tagsView.flagImage = .init(named: "notice")!
+        tagsView.tags = ["哈", "佬", "啊"]
+        tagsView.enableShowFlag = true
+        tagsView.xk_updateFlagIndexes([0, 2])
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        tagsView.xk_refreshView()
+        tagsView.frame.size.height = tagsView.xk_viewHeight()
     }
 
 }
